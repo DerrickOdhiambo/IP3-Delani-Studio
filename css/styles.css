@@ -1,10 +1,14 @@
 .landing-page{
   position: relative;
+  width: 100%;
+}
+#landing-page-image{
+  width: 100%;
 }
 .header{
   position: absolute;
   top: 30%;
-  width: 100%;
+  left: 30%;
 }
 .image{
   padding-top: 11rem;
