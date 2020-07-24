@@ -16,3 +16,13 @@
 .about-us{
   padding: 3rem 2rem;
 }
+.services{
+  position: relative;
+}
+.services img{
+  width: 100%;
+}
+.service-description{
+  position: absolute;
+  top: 30%;
+}
