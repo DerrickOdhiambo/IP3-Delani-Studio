@@ -1,0 +1,12 @@
+.landing-page{
+  position: relative;
+}
+.header{
+  position: absolute;
+  top: 30%;
+  text-align: center;
+  width: 100%;
+}
+.image{
+  padding-top: 11rem;
+}
