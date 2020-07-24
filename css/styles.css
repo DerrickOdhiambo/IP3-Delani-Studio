@@ -8,8 +8,11 @@
 .header{
   position: absolute;
   top: 30%;
-  left: 30%;
+  left: 30.1%;
 }
 .image{
-  padding-top: 11rem;
+  padding-top: 8.3rem;
+}
+.about-us{
+  padding: 3rem 2rem;
 }
