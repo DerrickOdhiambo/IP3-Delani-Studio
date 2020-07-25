@@ -2,5 +2,17 @@ $(document).ready(function(){
   $(".design").click(function(){
     $("#design-desc").toggle();
     $("#fig-des").slideToggle(1000);
-  })
-})
+  });
+});
+$(document).ready(function(){
+  $(".development").click(function(){
+    $("#dev-paragraph").toggle();
+    $("#fig-dev").slideToggle(1000);
+  });
+});
+$(document).ready(function(){
+  $(".product-mgmt").click(function(){
+    $("#prod-paragragh").toggle();
+    $("#fig-prod").slideToggle(1000);
+  });
+});
