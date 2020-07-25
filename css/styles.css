@@ -29,10 +29,10 @@
 }
 .icons{
   display: flex;
-  padding-bottom: 3rem;
+  /* padding-bottom: 1rem; */
 }
 .what-we-do{
-  padding: 3rem 0;
+  padding: 3rem 0 2rem 0;
   cursor: pointer;
 }
 .what-we-do h6, figcaption{
@@ -40,4 +40,42 @@
 }
 #design-desc, #dev-paragraph, #prod-paragragh{
   display: none;
+}
+.row1, .row2{
+  width: 85%;
+  padding: 0 0 5rem 0;
+}
+.contact{
+ position: relative;
+}
+.contact-desc{
+  position: absolute;
+  top: 0;
+  left: 5%;
+}
+#name{
+  width: 26rem;
+}
+#email{
+  width: 22rem;
+}
+#name, #email{
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid white;
+  color: white;
+  outline: none;
+  margin: 0 1rem 1rem 1rem;
+  padding: .3rem;
+  border-radius: .1rem;
+}
+#message{
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid white;
+  color: white;
+  outline: none;
+  padding: .3rem;
+  border-radius: .1rem;
+}
+::placeholder{
+  color: white;
 }
