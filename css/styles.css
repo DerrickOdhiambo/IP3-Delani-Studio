@@ -25,4 +25,11 @@
 .service-description{
   position: absolute;
   top: 30%;
+  left: 6%;
+}
+.icons{
+  display: flex;
+}
+#design-desc, #dev-paragraph, #prod-paragragh{
+  display: none;
 }
