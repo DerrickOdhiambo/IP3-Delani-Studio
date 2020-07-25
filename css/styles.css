@@ -25,10 +25,18 @@
 .service-description{
   position: absolute;
   top: 30%;
-  left: 6%;
+  left: 5.5%;
 }
 .icons{
   display: flex;
+  padding-bottom: 3rem;
+}
+.what-we-do{
+  padding: 3rem 0;
+  cursor: pointer;
+}
+.what-we-do h6, figcaption{
+  text-transform: uppercase;
 }
 #design-desc, #dev-paragraph, #prod-paragragh{
   display: none;
