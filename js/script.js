@@ -1,5 +1,6 @@
 $(document).ready(function(){
-  $("h1").click(function(){
-    alert("This is a h1")
+  $(".design").click(function(){
+    $("#design-desc").toggle();
+    $("#fig-des").slideToggle(1000);
   })
 })
