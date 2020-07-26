@@ -2,9 +2,6 @@
   position: relative;
   width: 100%;
 }
-#landing-page-image{
-  width: 100%;
-}
 .header{
   position: absolute;
   top: 30%;
@@ -18,9 +15,6 @@
 }
 .services{
   position: relative;
-}
-.services img{
-  width: 100%;
 }
 .service-description{
   position: absolute;
