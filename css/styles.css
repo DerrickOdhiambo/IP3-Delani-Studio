@@ -65,13 +65,13 @@ body{
   top: 0;
   left: 5%;
 }
-#name{
+#NAME{
   width: 26rem;
 }
-#email{
+#EMAIL{
   width: 22rem;
 }
-#name, #email{
+#NAME, #EMAIL{
   background-color: rgba(255, 255, 255, 0);
   border: 1px solid white;
   color: white;
@@ -80,7 +80,7 @@ body{
   padding: .3rem;
   border-radius: .1rem;
 }
-#message{
+#COMMENT{
   background-color: rgba(255, 255, 255, 0);
   border: 1px solid white;
   color: white;
