@@ -88,6 +88,16 @@ body{
   padding: .3rem;
   border-radius: .1rem;
 }
+.btn{
+  border: 2px solid whitesmoke;
+  outline: none;
+  color: whitesmoke;
+}
+.btn:hover{
+  cursor: pointer;
+  background-color: whitesmoke;
+  color: black;
+}
 ::placeholder{
   color: white;
 }
