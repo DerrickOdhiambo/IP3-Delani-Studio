@@ -95,6 +95,10 @@ body{
   border: solid 1px whitesmoke;
   outline: none;
 }
+.btn:hover{
+  background-color: whitesmoke;
+  color: black;
+}
 
 
 /* Media query for devices with max height 1024px */
