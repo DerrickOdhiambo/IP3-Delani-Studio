@@ -65,13 +65,13 @@ body{
   top: 0;
   left: 5%;
 }
-#NAME{
+#name{
   width: 26rem;
 }
-#EMAIL{
+#email{
   width: 22rem;
 }
-#NAME, #EMAIL{
+#name, #email{
   background-color: rgba(255, 255, 255, 0);
   border: 1px solid white;
   color: white;
@@ -80,7 +80,7 @@ body{
   padding: .3rem;
   border-radius: .1rem;
 }
-#COMMENT{
+#comment{
   background-color: rgba(255, 255, 255, 0);
   border: 1px solid white;
   color: white;
@@ -195,7 +195,7 @@ body{
     left: 0;
     padding: 0;
   }
-  #name, #email,#message{
+  #name, #email,#comment{
     width: 25rem;
     overflow-x: hidden;
     padding: 0;
@@ -256,7 +256,7 @@ body{
     left: 0;
     padding: 0;
   }
-  #name, #email, #message{
+  #name, #email, #comment{
     width: 16rem;
     overflow-x: hidden;
     padding: 0;
@@ -316,7 +316,7 @@ body{
     left: 0;
     padding: 0;
   }
-  #name, #email, #message{
+  #name, #email, #comment{
     width: 16rem;
     overflow-x: hidden;
     padding: 0;

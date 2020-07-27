@@ -72,16 +72,16 @@ $(document).ready(function() {
 
 //Getting data from user through the form
 function userMessage() {
-    let name = document.getElementById("NAME").value;
+    let name = document.getElementById("name").value;
     document.getElementById("mc-embedded-subscribe-form").addEventListener("submit", function(event) {
 
-    if(document.getElementById("NAME").value==""){
+    if(document.getElementById("name").value==""){
         alert("Please enter your name");
         return false;
-    }else if(document.getElementById("EMAIL").value==""){
+    }else if(document.getElementById("email").value==""){
         alert("Please enter an email address");
         return false;
-    }else if(document.getElementById("COMMENT").value==""){
+    }else if(document.getElementById("comment").value==""){
         alert("Please enter a valid comment");
         return false;
     }else{
