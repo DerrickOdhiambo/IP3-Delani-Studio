@@ -93,62 +93,67 @@ body{
 }
 
 /* Media query for devices with max height 576px */
-#landing-page-image{
-  width: 100%;
-  height: 100vh;
+
+
+/* Media query for devices with max height 576px */
+@media only screen and (max-width: 576px) {
+  #landing-page-image{
+    width: 100%;
+    height: 100vh;
+  }
+  .header{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    left: 0;
+  }
+  .header img{
+    height: 50px;
+    width: 50px;
+  }
+  .header h1{
+    padding-bottom: 0;
+  }
+  .image{
+    padding-top: 5rem;
+  }
+  .image img{
+    height: 15px;
+    width: 15px;
+  } 
+  .services img{
+    height: 40vh;
+  }
+  .service-description{
+    top: 5%;
+    left: 0;
+  }
+  .icons{
+    flex-direction: column;
+    padding: 2rem;
+  }
+  .row2, .row1{
+    width: 80%;
+    padding-bottom: .3rem;
+  }
+  .contact img{
+    height: 75vh;
+    width: 100%;
+  }
+  .contact-desc{
+    left: 0;
+    padding: 0;
+  }
+  #name, #email, #message{
+    width: 16rem;
+    overflow-x: hidden;
+    padding: 0;
+  } 
+  .image img{
+    height: 15px;
+    width: 15px;
+  } 
 }
-.header{
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  left: 0;
-}
-.header img{
-  height: 50px;
-  width: 50px;
-}
-.header h1{
-  padding-bottom: 0;
-}
-.image{
-  padding-top: 5rem;
-}
-.image img{
-  height: 15px;
-  width: 15px;
-} 
-.services img{
-  height: 40vh;
-}
-.service-description{
-  top: 5%;
-  left: 0;
-}
-.icons{
-  flex-direction: column;
-  padding: 2rem;
-}
-.row2, .row1{
-  width: 80%;
-  padding-bottom: .3rem;
-}
-.contact img{
-  height: 75vh;
-  width: 100%;
-}
-.contact-desc{
-  left: 0;
-  padding: 0;
-}
-#name, #email, #message{
-  width: 16rem;
-  overflow-x: hidden;
-  padding: 0;
-} 
-.image img{
-  height: 15px;
-  width: 15px;
-} 
 
 /* Extra small devices (phones, 500px and down) */
 @media only screen and (max-width: 500px) {
