@@ -72,9 +72,6 @@ $(document).ready(function() {
 
 //Getting data from user through the form
 function userMessage() {
-  document.getElementById("formSubmit").addEventListener("click", function(event) {
-    event.preventDefault();
-
     let userName = document.getElementById("name").value;
     let userEmail = document.getElementById("email").value;
     let userText = document.getElementById("message").value;
