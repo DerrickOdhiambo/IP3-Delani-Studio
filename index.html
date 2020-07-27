@@ -12,13 +12,17 @@
 <body>
   <div class="landing-page">
     <img src="./assets/backgrounds/h_img.jpg" class="img-fluid" id="landing-page-image" alt="home-image">
-    <div class="header text-center text-white text-uppercase">
-      <img src="./assets/logo/logo.png" alt="">
-      <h1 class="p-4">welcome</h1>
-      <h1>to delani studio</h1>
-      <p><small>amazing people are making amazing designs in a fun environment</small></p>
-      <div class="image">
-        <img src="./assets/mouse_click.png" alt="mouse click png">
+    <div class="container header text-center text-white text-uppercase">
+      <div class="container">
+        <img src="./assets/logo/logo.png" class="img" alt="delani logo">
+      </div>
+      <div class="container">
+        <h1 class="p-4">welcome</h1>
+        <h1>to delani studio</h1>
+        <p><small>amazing people are making amazing designs in a fun environment</small></p>
+        <div class="image">
+          <img src="./assets/mouse_click.png" alt="mouse click png">
+        </div>
       </div>
     </div>
   </div>
@@ -32,10 +36,12 @@
   <div class="services">
     <img src="./assets/backgrounds/s_image.jpg" class="img-fluid" alt="services image">
     <div class="container service-description text-center text-white">
-      <h3 class="text-uppercase">services</h3>
-      <p>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision.</p>
-      <p>The outcome of this scoping session is proposal or high-level statement of work</p>
-      <p>Based on your requirements, we can provide a complete offering or just pieces you need.</p>
+      <div class="container">
+        <h3 class="text-uppercase">services</h3>
+        <p>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision.</p>
+        <p>The outcome of this scoping session is proposal or high-level statement of work</p>
+        <p>Based on your requirements, we can provide a complete offering or just pieces you need.</p>
+      </div>
     </div>
   </div>
   <div class="container what-we-do">
@@ -80,33 +86,41 @@
     <h3 class="text-center text-uppercase p-3">portfolio</h3>
     <div class="container row1">
       <div class="row">
-        <div class="col">
-          <img src="./assets/portfolio/work4.jpg" class="img-fluid" alt="work 4">
+        <div class="col-md-3 p-3 work-portfolio1">
+          <img src="./assets/portfolio/work4.jpg" class="img-fluid work-image" alt="work 4">
+          <p class="text-center text-uppercase" id="overlay1">dark<br>house</p>
         </div>
-        <div class="col">
-          <img src="./assets/portfolio/work3.jpg" class="img-fluid" alt="work 3">
+        <div class="col-md-3 p-3 work-portfolio2">
+          <img src="./assets/portfolio/work3.jpg" class="img-fluid work-image" alt="work 3">
+          <p class="text-uppercase text-center" id="overlay2">ontario<br>security</p>
         </div>
-        <div class="col">
-          <img src="./assets/portfolio/work2.jpg" class="img-fluid" alt="work 2">
+        <div class="col-md-3 p-3 work-portfolio3">
+          <img src="./assets/portfolio/work2.jpg" class="img-fluid work-image" alt="work 2">
+          <p class="text-uppercase text-center" id="overlay3">orange<br>house</p>
         </div>
-        <div class="col">
-          <img src="./assets/portfolio/work1.jpg" class="img-fluid" alt="work 1">
+        <div class="col-md-3 p-3 work-portfolio4">
+          <img src="./assets/portfolio/work1.jpg" class="img-fluid work-image" alt="work 1">
+          <p class="text-uppercase text-center" id="overlay4">jim<br>carrey</p>
         </div>
       </div>
     </div>
-    <div class="container row2">
+    <div class="container row2 work-portfolio">
       <div class="row">
-        <div class="col">
-          <img src="./assets/portfolio/work5.jpg" alt="work 5" class="img-fluid">
+        <div class="col-md-3 p-3 work-portfolio5">
+          <img src="./assets/portfolio/work5.jpg" class="img-fluid work-image" alt="work 5">
+          <p class="text-uppercase text-center" id="overlay5">good day<br>blog</p>
         </div>
-        <div class="col">
-          <img src="./assets/portfolio/work6.jpg" alt="work 6" class="img-fluid">
+        <div class="col-md-3 p-3 work-portfolio6">
+          <img src="./assets/portfolio/work6.jpg" class="img-fluid work-image" alt="work 6">
+          <p class="text-uppercase text-center" id="overlay6">input<br>showcase</p>
         </div>
-        <div class="col">
-          <img src="./assets/portfolio/work7.jpg" alt="work 7" class="img-fluid">
+        <div class="col-md-3 p-3 work-portfolio7">
+          <img src="./assets/portfolio/work7.jpg" class="img-fluid work-image" alt="work 7">
+          <p class="text-uppercase text-center" id="overlay7">burned<br>company</p>
         </div>
-        <div class="col">
-          <img src="./assets/portfolio/work8.jpg" alt="work 8" class="img-fluid">
+        <div class="col-md-3 p-3 work-portfolio8">
+          <img src="./assets/portfolio/work8.jpg" class="img-fluid work-image" alt="work 8">
+          <p class="text-uppercase text-center" id="overlay8">bailey<br>wonger</p>
         </div>
       </div>
     </div>
@@ -114,16 +128,18 @@
   <div class="contact">
     <img src="./assets/backgrounds/c_image.jpg" class="img-fluid" alt="contact image">
     <div class="container contact-desc">
-      <h3 class="text-center text-white pt-5 pb-4 text-uppercase">contact us</h3>
-      <div class="container form text-center">
-        <form action="" class="form-group">
-          <input type="text"  id="name" placeholder="Name...">
-          <input type="email"  id="email" placeholder="Email...">
-          <div>
-            <textarea name="" id="message" cols="82" rows="7" placeholder="Your message here..."></textarea>
-          </div>
-        </form>
-        <button type="submit">Send Message</button>
+      <div class="container">
+        <h3 class="text-center text-white pt-5 pb-4 text-uppercase">contact us</h3>
+        <div class="container form text-center">
+          <form action="http://eepurl.com/g_jJLz" class="form-group" id="formSubmit" method="POST">
+            <input type="text"  id="name" placeholder="Name...">
+            <input type="email"  id="email" placeholder="Email...">
+            <div>
+              <textarea name="" id="message" cols="82" rows="7" placeholder="Your message here..."></textarea>
+            </div>
+            <button type="submit" onclick="userMessage()">Send Message</button>
+          </form>
+        </div>
       </div>
     </div>
   </div>
