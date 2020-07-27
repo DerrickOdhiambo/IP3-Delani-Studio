@@ -72,15 +72,21 @@ $(document).ready(function() {
 
 //Getting data from user through the form
 function userMessage() {
-    let userName = document.getElementById("name").value;
-    let userEmail = document.getElementById("email").value;
-    let userText = document.getElementById("message").value;
+    let name = document.getElementById("NAME").value;
+    document.getElementById("mc-embedded-subscribe-form").addEventListener("submit", function(event) {
 
-    if (userName && userEmail && userText) {
-        alert(`Thank you for your feed back ${userName}.`);
-    } else {
-        alert("Please confirm your credentials.");
-    };
-    this.reset();
+    if(document.getElementById("NAME").value==""){
+        alert("Please enter your name");
+        return false;
+    }else if(document.getElementById("EMAIL").value==""){
+        alert("Please enter an email address");
+        return false;
+    }else if(document.getElementById("COMMENT").value==""){
+        alert("Please enter a valid comment");
+        return false;
+    }else{
+        alert(`Thank you for your feedback ${name}`)
+    }
+    event.preventDefault();
 });
-}
+};
