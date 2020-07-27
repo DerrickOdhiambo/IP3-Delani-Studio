@@ -1,7 +1,8 @@
 # Delani Studio
 This is an application template for a design studio.
+
 ## Setup
-No installation required for the application. To start this project cloning or forking would be ideal.
+No installation required for the application. To start this project, cloning or forking would be ideal.
 To clone use the following commands:
 - `git clone https://github.com/DerrickOdhiambo/IP3-Delani-Studio.git`
 - `cd IP3-Delani-Studio`
@@ -10,6 +11,20 @@ To clone use the following commands:
 
 ## Author
 - [DerrickOdhiambo](https://github.com/DerrickOdhiambo/IP3-Delani-Studio)
+
+## Behavior Driven Development
+### Specifications
+- All fields should be filled by user.
+
+### Example
+|Behavior|Input Example|Output Example|
+|--------|-------------|--------------|
+|All fields filled|Derrick odhiamboderrick@gmail.com Good Work|Thank you for your feedback Derrick|
+|One field not filled|Derrick __ Good work|Please confirm your credentials|
+
+## Technologies Used
+- Bootstrap 4
+- jQuery & JavaScript
 
 ## License
 MIT License
