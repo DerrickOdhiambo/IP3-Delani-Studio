@@ -1,6 +1,12 @@
 # Delani Studio
 This is an application template for a design studio.
 
+## Project Live Link
+- [Click for to view the site](https://derrickodhiambo.github.io/IP3-Delani-Studio/)
+
+## Live Image Demo
+![Delani Studio](assets/Delani.png)
+
 ## Setup
 No installation required for the application. To start this project, cloning or forking would be ideal.
 To clone use the following commands:
@@ -20,11 +26,14 @@ To clone use the following commands:
 |Behavior|Input Example|Output Example|
 |--------|-------------|--------------|
 |All fields filled|Derrick odhiamboderrick@gmail.com Good Work|Thank you for your feedback Derrick|
-|One field not filled|Derrick __ Good work|Please confirm your credentials|
+|One field not filled|Derrick __ Good work|Required|
 
 ## Technologies Used
 - Bootstrap 4
 - jQuery & JavaScript
+
+### Known Bugs
+- The validation of the form through the JavaScript code is not responsive. It automatically redirects user to the mail chimp form. 
 
 ## License
 MIT License
